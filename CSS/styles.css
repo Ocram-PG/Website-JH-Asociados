@@ -251,6 +251,7 @@
         }
         
         .caja_somos {
+            display: block;
             width: 50%;
             height: 390px;
             float: left;
@@ -260,6 +261,10 @@
             width: 45%;
             height: 390px;
             float: left;
+        }
+        
+        .caja-mision {
+            padding: 35px 0;
         }
         
         .clearfix {
@@ -273,7 +278,7 @@
             background-image: url(../IMG/quines-somos/mision.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: center;
+            margin-top: 15px;
         }
         
         .img-vision {
@@ -617,7 +622,7 @@
             margin-top: 270px;
             font-weight: bolder;
             font-style: oblique;
-            text-shadow: 2px 2px 15px #0b135e;
+            text-shadow: 2px 2px 15px #0d20cc;
         }
         
         .join-team {
@@ -631,10 +636,11 @@
         
         .join-team h2 {
             margin: 25px 8rem;
-            color: rgb(8, 8, 58);
+            color: #0d20cc;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 35px;
-            line-height: 25pt;
+            font-size: 40px;
+            line-height: 15pt;
+            font-weight: 500;
         }
         
         .info-reclutamiento {
@@ -645,7 +651,7 @@
         }
         
         .info-reclutamiento h3 {
-            color: rgb(8, 8, 58);
+            color: #0d20cc;
             font-family: sans-serif;
         }
         
@@ -695,30 +701,73 @@
             font-size: 14px;
         }
         
-        .beneficios {
+        .descripccion_reclutamiento {
             width: 100%;
-            height: 670px;
+            height: 700px;
         }
         
-        .beneficio_team {
-            margin: 0 15rem;
+        .desc-recl {
+            margin: 0 9rem;
             align-items: center;
         }
         
-        .beneficio_team h1 {
-            color: #0b135e;
-            text-align: center;
-            font-family: sans-serif;
-            font-size: 35px;
+        .desc-recl h1 {
+            color: #0d20cc;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 45px;
             font-weight: 500;
+            text-transform: uppercase;
+            margin-top: 50px;
         }
         
-        .caja-beneficios {
+        .caja-desc {
             width: 40%;
-            height: 250px;
-            border: 1px solid blue;
+            height: 300px;
             float: left;
             display: block;
             margin: 15px;
             margin-left: 55px;
+            -webkit-box-shadow: -3px 25px 71px -31px rgba(11, 64, 143, 1);
+            -moz-box-shadow: -3px 25px 71px -31px rgba(11, 64, 143, 1);
+            box-shadow: -3px 25px 71px -31px rgba(11, 64, 143, 1);
+            transition: all 5s;
+        }
+        
+        .desc_personal {
+            padding: 15px;
+        }
+        
+        .icon-seleccion_personal {
+            float: left;
+            width: 15%;
+            height: 280px;
+        }
+        
+        .icon-seleccion_personal i {
+            font-size: 45px;
+            color: #0d20cc;
+            margin-top: 30px;
+            margin-left: 11px;
+        }
+        
+        .text-seleccion_personal {
+            float: left;
+            display: block;
+            width: 80%;
+            height: 280px;
+            margin-top: 0;
+            overflow: hidden;
+        }
+        
+        .text-seleccion_personal h4 {
+            color: #091bc4e0;
+            font-size: 23px;
+        }
+        
+        .text-seleccion_personal p {
+            text-align: justify;
+            font-size: 15px;
+            font-weight: 500;
+            top: 0;
         }
